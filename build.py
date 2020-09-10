@@ -140,6 +140,4 @@ err_exit( rs, 'Failed to compile hadoop connector 2.2!')
 #TODO: zichuan has new compile 
    
 print( 'Compile source code completed!' )
-
-print( 'git test test' )
-print( 'git test test test ' )
+print( '123' )
