@@ -77,5 +77,3 @@ under Apache License v2.0.
 - SequoiaDB officially supports x86_64 and ppc64 Linux build on CentOS, Redhat, SUSE and Ubuntu.
 
 - Windows build and 32 bit build are for testing purpose only.
-
-test test  test
