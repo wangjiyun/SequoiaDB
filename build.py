@@ -128,7 +128,8 @@ hive_code_path = code_path + '/driver/hadoop/hive'
 rs = run_in_dir( 'ant', hive_code_path )
 err_exit( rs, 'Failed to compile hive!')
 
-#compile hadoop connector 
+#compile hadoop connector
+#
 hdcn_code_path = code_path + '/driver/hadoop/hadoop-connector'
 rs = run_in_dir( 'ant -Dhadoop.version=1.2', hdcn_code_path )
 err_exit( rs, 'Failed to compile hadoop connector 1.2!')
@@ -139,3 +140,6 @@ err_exit( rs, 'Failed to compile hadoop connector 2.2!')
 #TODO: zichuan has new compile 
    
 print( 'Compile source code completed!' )
+
+print( 'git test test' )
+print( 'git test test test ' )
